@@ -32,11 +32,17 @@ Environment: dotenv
 Create a .env file inside server/:
 
 PORT=5001
+
 JWT_SECRET=your_secret_key
+
 DB_USER=postgres
+
 DB_PASSWORD=your_password
+
 DB_HOST=localhost
+
 DB_PORT=5432
+
 DB_NAME=chat_app
 
 
@@ -44,6 +50,7 @@ DB_NAME=chat_app
 
 # Database Schema
 Users Table
+
 CREATE TABLE users (
   id UUID PRIMARY KEY,
   email TEXT UNIQUE NOT NULL,
@@ -51,6 +58,7 @@ CREATE TABLE users (
 );
 
 Messages Table
+
 CREATE TABLE messages (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   sender_id UUID,
@@ -60,8 +68,11 @@ CREATE TABLE messages (
 );
 
  Running the Server
+
 cd server
+
 npm install
+
 npx nodemon index.js
 
 
