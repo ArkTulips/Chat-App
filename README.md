@@ -114,10 +114,14 @@ Open two terminals:
 
 Terminal 1
 node chatClientarkt.js
+
+
 <img width="611" height="220" alt="Screenshot 2026-01-18 193417" src="https://github.com/user-attachments/assets/fdd84ee7-7c23-4a0f-8fb2-0c49ce6ad6f3" />
 
 Terminal 2
 node chatClientsp.js
+
+
 <img width="630" height="172" alt="Screenshot 2026-01-18 193429" src="https://github.com/user-attachments/assets/9a3a2a67-cc28-4dda-b616-570e8cdc2b82" />
 
 
@@ -145,3 +149,6 @@ Designed for learning & demonstration, not production deployment
 Suitable for backend / full-stack interviews
 
 # Author
+
+Sukrit Pal
+
