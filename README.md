@@ -26,21 +26,6 @@ Testing: Node CLI clients
 
 Environment: dotenv
 
-# Project Structure
-task-2/
-│
-├── server/
-│   ├── index.js              # Main server entry
-│   ├── db.js                 # PostgreSQL connection
-│   ├── routes/
-│   │   ├── auth.js            # Auth routes (login/register)
-│   │   └── messages.js        # Fetch chat history
-│   ├── socket_arkt.js         # Chat client (User A)
-│   ├── socket_sp.js           # Chat client (User B)
-│   ├── .env                   # Environment variables (ignored)
-│   └── .gitignore
-│
-└── README.md
 
 # Environment Variables
 
