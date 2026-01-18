@@ -82,9 +82,11 @@ http://localhost:5001
 
 # Authentication API
 Register
+
 POST /api/auth/register
 
 Login
+
 POST /api/auth/login
 
 
@@ -100,10 +102,15 @@ io("http://localhost:5001", {
 });
 
 Events
+
 Event	Direction	Description
+
 send_message	Client → Server	Send message
+
 receive_message	Server → Client	Receive message
+
 message_sent	Server → Sender	Delivery confirmation
+
 # Testing via CLI Clients
 
 Open two terminals:
