@@ -5,12 +5,12 @@ This project demonstrates secure user authentication, real-time messaging, and m
 
 # Features
 
-## JWT-based Authentication
-## Real-time messaging using Socket.IO
-## User-specific chat rooms
-## Message history stored in PostgreSQL
-## CLI-based socket clients for testing
-## CORS-enabled API
+ JWT-based Authentication
+ Real-time messaging using Socket.IO
+ User-specific chat rooms
+ Message history stored in PostgreSQL
+ CLI-based socket clients for testing
+ CORS-enabled API
 
 # Tech Stack
 
@@ -40,7 +40,7 @@ DB_PORT=5432
 DB_NAME=chat_app
 
 
-# .env is ignored using .gitignore and should never be committed.
+ .env is ignored using .gitignore and should never be committed.
 
 # Database Schema
 Users Table
