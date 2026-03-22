@@ -151,7 +151,4 @@ Designed for learning & demonstration, not production deployment
 
 Suitable for backend / full-stack interviews
 
-# Author
-
-Sukrit Pal
 
